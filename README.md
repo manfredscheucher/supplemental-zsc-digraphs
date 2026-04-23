@@ -9,8 +9,6 @@ Supplemental code to:
 > European Journal of Combinatorics, 2021.
 > [doi:10.1016/j.ejc.2021.103399](https://dl.acm.org/doi/abs/10.1016/j.ejc.2021.103399) · [arXiv:2103.04359](https://arxiv.org/abs/2103.04359)
 
-The paper acknowledges: *"We would like to thank Manfred Scheucher very much for implementing and solving a SAT-model to compute the values of n(A) for groups of small order."*
-
 ## Files
 
 - `zerosumcycles_sat.py` — refactored Python 3 version with `argparse` (refactored with Claude)
