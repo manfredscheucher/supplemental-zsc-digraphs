@@ -31,16 +31,19 @@ python3 zerosumcycles_sat.py <n> [--output FILE] [--no-cnf]
 ## Example
 
 ```
-$ python3 zerosumcycles_sat.py 4
+$ python3 zerosumcycles_sat.py 3
 (*) wlog 0
-(*) assert labels 3
-(*) assert no 0-sum cycles 15
+(*) assert labels 0
+(*) assert no 0-sum cycles 12
+assignment (0, 0)
+assignment (1, 1)
 assignment (0, 0, 0)
-...
-Total number of constraints: 87
+assignment (0, 1, 1)
+assignment (1, 0, 1)
+assignment (1, 1, 0)
+Total number of constraints: 48
 Created CNF file: instance.in
-sol 1:
-D {(1, 2): 0, (2, 1): 1, ...}
+no solution!?
 ```
 
 ## Dependencies
